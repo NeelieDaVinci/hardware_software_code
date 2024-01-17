@@ -3,8 +3,10 @@ def conversation():
     answer = input()
     if answer == "yes":
         print("That's good - the United States needs more coders!!")
-    else:
+    if answer == "no":
         print("Perhaps you will change your your mind")
+    else:
+        print("I dont understand?")
     print("Goodbye")
 
 def main():
