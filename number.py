@@ -1,5 +1,6 @@
 def get_smallest(smallest, value):
     if smallest is None:
+
         smallest = value
     elif value < smallest:
         smallest = value
